@@ -1,0 +1,76 @@
+#+TITLE: Piotr Limanowski
+#+OPTIONS: toc:nil num:nil html-postamble:nil HTML_DOCTYPE:html5
+#+HTML_HEAD_EXTRA: <link rel="shortcut icon" href="https://codearsonist.com/favicon.ico" />
+
+* TODO Contact
+- email: piotr@codearsonist.com 
+- web: codearsonist.com
+
+* TODO Experience
+** Technical Architect - Schibsted Tech Polska
+*** January 2015 - to date
+ As a Software Architect and Fullstack Dev with Java, Scala and most recently Elixir as a part of a small team I was tasked to migrate a legacy application to a modern cloud-backed multi-module micro service-based application. 
+ We migrated the old monolith to Docker and CoreOS solution based upon AWS. Currently we continue to deliver new services using Scala, Java and Elixir.
+
+ *Technologies:* Scala, Java, Elixir, Docker, CoreOS, AWS, Zipkin, Kamon, Akka, Statsd, Grafana, Apiary, Codacy
+
+** Technical Architect - Middleware Services - Nordea
+*** January 2012 - December 2014
+ As a Principal Developer and Technical Architect I have been responsible for delivering of the Service Oriented Middleware services for the company. The approach assumed fast service delivery, scalability, simple integration and changeability.
+
+ *Technologies:* Java EE (EJB3.1, JAXWS, JAXRS, JMS, JPA, CDI), AspectJ, Maven, Jenkins, Sonar, Nexus, Git, Gitflow** Education
+
+** Java Developer - Financial Analysis & Reporting - Nordea
+*** April 2011 - December 2011
+ The aim of the project was to deliver an application for rating calculation, analysis and reporting of corporate customers’.
+
+ *Technologies:* Java EE (EJB3.1, JAXWS, JAXRS, JMS, JPA, CDI), Oracle, Maven, Jenkins, Sonar, Nexus, Git, Gitflow
+
+** Java Developer - File Delivery Automation - Nordea
+*** April 2011 - December 2011
+ The aim of the project was to deliver a common, automated, scalable and managed solution for inter and intra-company  le deliveries.
+
+ *Technologies:* Java EE (EJB3.1, JAXWS, JAXRS, JMS, JPA, CDI), Oracle, Maven, Jenkins, Sonar, Nexus, Git, Gitflow
+
+** Java Developer - KAOS Consulting
+*** October 2010 - April 2011
+ I was picked as a developer for the project from an International Exchange Bureau draft. The aim of the project was to deliver an automated data analysis and trend recognition tool along with cross-system integration.
+
+ *Technologies:* Java, Spring Core, Spring DM, JMS, Apache Hadoop, MongoDB
+
+** Web Developer, m.photoblog.pl - PixNet
+*** Oct 2010 - Jan 2009
+ The aim of the project was to build a mobile application for the biggest polish photoblogging platform.
+
+ *Technologies:* PHP, Javscript, Java, HTML, CSS
+
+** Web Developer, PhotoSplash - PixNet
+*** Oct 2010 - Jan 2009
+ The aim of the project was to build a web application allowing a user to input a photo and pick photo manipulation effect to be applied. 
+
+ *Technologies:* PHP, Javscript, Java, HTML, CSS
+* TODO Education
+** Gdansk University of Technology
+*** Electronics, Telecommunications and Informatics Faculty
+ MA thesis: /"Face Recognition in the crowd using high resolution camera image"/. Developed in Java with JNI for compatibility with supercomputer. 
+
+ *Grade:* Distinction
+
+* TODO Skills
+** Programming
+- Scala
+- Elixir
+- HTML/CSS/Javascript
+- Java
+- Ruby
+** Professional
+- Communication
+- Problem Solving 
+- Technical Leadership
+- Business Goal Orientation 
+- Commitment
+* TODO Languages
+ - English 90
+ - German 40
+ - Japanese 20
+
