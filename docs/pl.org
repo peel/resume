@@ -1,0 +1,6 @@
+  * DONE Footer
+    CLOSED: [2017-04-04 Tue 09:09]
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: footer
+    :END:
+    Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Ustawą z dn. 29.08.97 o Ochronie Danych Osobowych, Dz. Ust. Nr 133 poz. 883.

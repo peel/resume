@@ -1,0 +1,124 @@
+#+TITLE: Piotr Limanowski
+#+SETUPFILE: html.conf.org
+
+#+INCLUDE: html-header.org
+* DONE Contact
+  CLOSED: [2017-04-03 Mon 09:45]
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: contact
+  :END:
+- email :: [[mailto:piotr@codearsonist.com][piotr@codearsonist.com]] 
+- web :: [[https://codearsonist.com][codearsonist.com]]
+* Experience
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: experience
+  :END:
+** TODO Technical Architect - Schibsted Tech Polska
+*** Jan 2015 - to date
+ As a Software Architect and Fullstack Dev with Java, Scala and most recently Elixir as a part of a small team I was tasked to migrate a legacy application to a modern cloud-backed multi-module micro service-based application. 
+ We migrated the old monolith to Docker and CoreOS solution based upon AWS. Currently we continue to deliver new services using Scala, Java and Elixir.
+
+ # *Scala*, *Elixir*, *JavaScript*, *Docker*, *AWS*, *Akka*, *Redis*, *MongoDB*, *PostgreSQL*
+
+** TODO Technical Architect - Middleware Services - Nordea
+*** Jan 2012 - Dec 2014
+ As a Principal Developer and Technical Architect I have been responsible for delivering of the Service Oriented Middleware services for the company. The approach assumed fast service delivery, scalability, simple integration and changeability.
+
+ # *Java*, *AspectJ*, *Oracle*
+
+** TODO Java Developer - Financial Analysis & Reporting - Nordea
+*** April 2011 - Dec 2011
+ The aim of the project was to deliver an application for rating calculation, analysis and reporting of corporate customers’.
+
+** TODO Java Developer - File Delivery Automation - Nordea
+*** April 2011 - Dec 2011
+ The aim of the project was to deliver a common, automated, scalable and managed solution for inter and intra-company  le deliveries.
+
+** TODO Java Developer - KAOS Consulting
+*** Oct 2010 - April 2011
+ I was picked as a developer for the project from an International Exchange Bureau draft. The aim of the project was to deliver an automated data analysis and trend recognition tool along with cross-system integration.
+
+ # *Java*, *Spring Core*, *Spring DM*, *JMS*, *Hadoop*, *MongoDB*
+
+** TODO Web Developer, m.photoblog.pl - PixNet
+*** Oct 2010 - Jan 2009
+ The aim of the project was to build a mobile application for the biggest polish photoblogging platform.
+
+ # *PHP*, *JavaScript*, *Java*, *HTML*, *CSS*
+
+** TODO Web Developer, PhotoSplash - PixNet
+*** Oct 2010 - Jan 2009
+ The aim of the project was to build a web application allowing a user to input a photo and pick photo manipulation effect to be applied. 
+* Education
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: education
+  :END:
+** DONE Gdansk University of Technology
+   CLOSED: [2017-04-03 Mon 09:40]
+*** Electronics, Telecommunications and Informatics Faculty
+ MA thesis: /"Face Recognition in the crowd using high resolution camera image"/. Developed in Java with JNI for compatibility with supercomputer. 
+
+ *Grade:* Distinction
+
+* Skills
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: skills
+  :END:
+** DONE Programming
+   CLOSED: [2017-04-03 Mon 09:40]
+*** Scala 
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-80
+  :END:
+*** Elixir
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-40
+  :END:
+*** JS
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-80
+  :END:
+*** Java
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-80
+  :END:
+*** Ruby
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-40
+  :END:
+*** Bash
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-80
+  :END:
+** TODO Tooling
+*** Git
+*** Docker
+*** Amazon WS
+*** Continuous Delivery
+*** TDD/BDD
+** DONE Professional
+   CLOSED: [2017-04-03 Mon 09:40]
+*** Communication
+*** Problem Solving
+*** Technical Leadership
+*** Goal Orientation
+*** Commitment
+* DONE Languages
+  CLOSED: [2017-04-03 Mon 11:11]
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: languages
+  :END:
+*** English
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: percent-100
+    :END:
+*** German
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: percent-40
+    :END:
+*** Japanese
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: percent-20
+    :END:
+
+#+INCLUDE: html-footer.org
