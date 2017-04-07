@@ -1,7 +1,7 @@
 #+TITLE: Piotr Limanowski
-#+SETUPFILE: html.conf.org
+#+SETUPFILE: include/html.conf.org
 
-#+INCLUDE: html-header.org
+#+INCLUDE: include/html-header.org
 * DONE Contact
   CLOSED: [2017-04-03 Mon 09:45]
   :PROPERTIES:
@@ -121,4 +121,4 @@
     :HTML_CONTAINER_CLASS: percent-20
     :END:
 
-#+INCLUDE: html-footer.org
+#+INCLUDE: include/html-footer.org :minlevel 1

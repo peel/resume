@@ -1,1 +1,1 @@
-docs/index.org
+index.org

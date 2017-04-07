@@ -1,0 +1,6 @@
+* DONE Footer
+  CLOSED: [2017-04-04 Tue 09:09]
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: footer
+  :END:
+#+HTML: <br style="clear: left;" ></section></div>

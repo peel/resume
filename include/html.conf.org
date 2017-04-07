@@ -2,5 +2,5 @@
 #+HTML_CONTAINER_CLASS: article
 #+HTML_HEAD_EXTRA: <link rel="shortcut icon" href="https://codearsonist.com/favicon.ico" />
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css">
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700,300,400|Roboto:700,300,400|Source+Code+Pro:500" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="./resume.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700,500,400,300|Roboto:700,500,400,300" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="./static/resume.css" />
