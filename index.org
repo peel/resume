@@ -98,7 +98,6 @@
 *** TDD/BDD
 ** DONE Professional
    CLOSED: [2017-04-03 Mon 09:40]
-*** Communication
 *** Problem Solving
 *** Technical Leadership
 *** Goal Orientation

@@ -1,4 +1,7 @@
-#+OPTIONS: toc:nil num:nil title:nil html-postamble:nil HTML_DOCTYPE:html5
+#+OPTIONS: toc:nil num:nil title:nil todo:nil creator:nil html-postamble:nil HTML_DOCTYPE:html5
+#+CREATOR: Piotr Limanowski
+#+KEYWORDS: code arsonist, codearsonist, limanowski, piotr limanowski, scala, elixir, erlang, haskell
+#+DESCRIPTION: a personal page for Piotr Limanowski - a full-time señor '(#scala #elixir #haskell) code arsonist & el modo evil brujito. Part-time #hoverboard'er lifting heavy shit 🏴 Time considered monotonic.
 #+HTML_CONTAINER_CLASS: article
 #+HTML_HEAD_EXTRA: <link rel="shortcut icon" href="https://codearsonist.com/favicon.ico" />
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css">

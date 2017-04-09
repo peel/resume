@@ -20,9 +20,10 @@ h1,h2,h3{
 }
 .header h2{
     margin:0 -10mm;
-    padding: 5mm 10mm;
-    letter-spacing: 0.1em;
-    font-size: 2em;
+    padding: 6mm 10mm;
+    letter-spacing: 0em;
+    font-size: 2.6em;
+    font-weight: 500;
 }
 .skills h4, .languages h4 {
     font: 200 1em "Roboto";
@@ -38,7 +39,7 @@ h1,h2,h3{
     background:rgb(56, 182, 171);
     height:0.7em;
     border-radius:1em;
-    margin:-2.3em 0 0 50%;
+    margin:-1.1em 0 0 50%;
     width:10%;
 }
 .percent-40:after{
@@ -83,7 +84,7 @@ h1,h2,h3{
     grid-template-columns: 70% 30%;
     grid-template-rows: audo auto;
     align-items: start;
-    padding: 0 10mm 10mm 10mm;
+    padding: 0 5mm 10mm 5mm;
 }
 .header, .experience, .education, .contact, .skills, .languages{
     margin-bottom: 0;
@@ -180,4 +181,74 @@ h2 {
     display:block;
     width:28%;
     padding-right: 0.1em;
+}
+
+/* ---------------- HEXAGON STUFFS -----------------*/
+.hexagon {
+  position: absolute;
+  top:1mm;
+  right: 10mm;
+  width: 70px;
+  height: 40.41px;
+  margin: 20.21px 0;
+  background-image: url(https://raw.githubusercontent.com/peel/talks/master/photo.jpg);
+  background-size: auto 80.8290px;
+  background-position: center;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 49.50px;
+  height: 49.50px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 10.25px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 70.0000px;
+  height: 40.414518843273804px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-20.2073px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-20.2073px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-20.2073px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -24.7487px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -24.7487px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 70.0000px;
+  height: 40.4145px;
+  z-index: 2;
+  background: inherit;
 }
