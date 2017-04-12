@@ -128,7 +128,7 @@ h1,h2,h3{
     font: 300 0.6em "Roboto";
     text-align: center;
     background-color: rgb(56, 182, 171);
-    margin: 10mm -10mm -10mm -10mm;
+    margin: 0 -10mm -10mm -10mm;
     height: 10mm;
     padding: 0;
 }
@@ -171,6 +171,12 @@ h2 {
     margin: 0;
     padding: 0;
     line-height: 50%;
+}
+.outline-text-4 ul{
+    padding: 0 0 0 4mm;
+    margin-bottom: 0;
+    font: 300 0.9em "Roboto";
+    line-height: 125%;
 }
 .education .outline-3, .experience .outline-3{
     padding: 0.1em 0 1.2em 0;
