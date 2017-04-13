@@ -17,38 +17,36 @@
 ** DONE Technical Architect - Schibsted Tech Polska :scala:elixir:js:docker:aws:akka:
    CLOSED: [2017-04-12 Wed 09:42]
 *** Jan 2015 - to date
-    + Co-lead innovative project of migrating a whole media house into Amazon Web Services reducing operations costs and delivery times
-    + Built a highly-optimised, business workflow-oriented, distributed authorisation, authentication, and payment layer built on top of Scala (both actor model - akka and functional typelevel stack) and Elixir
-    + Designed and built administrative tools for process management based upon Elixir/OTP improving monitoring, response times and error handling
+    + Co-lead innovative project of migrating a whole media house into *Amazon Web Services* reducing operations costs and delivery times
+    + Built a highly-optimised, business workflow-oriented, distributed authorisation, authentication, and payment layer built on top of *Scala* (both actor model - akka and functional typelevel stack) and *Elixir*
+    + Designed and built administrative tools for process management based upon *Elixir/OTP* improving monitoring, response times and error handling
     + Built development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
 
 ** DONE Technical Architect - Middleware Services - Nordea       :java:scala:
    CLOSED: [2017-04-12 Wed 12:07]
 *** Jan 2012 - Dec 2014
-    + Designed and built middleware, business services stack enabling fast service delivery, scalability, simple integration and changeability
+    + Designed and built *Java* and *Scala* middleware, business services stack enabling fast service delivery, scalability, simple integration and changeability
     + Built and introduced development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
 ** DONE Java Developer - Financial Analysis & Reporting - Nordea  :java:ruby:
    CLOSED: [2017-04-12 Wed 12:07]
 *** April 2011 - Dec 2011
-    + Lead and implemented backends for an international rating calculation, analysis and reporting tool
+    + Lead and implemented *Java* and *Ruby* backends for an international rating calculation, analysis and reporting tool
 ** DONE Java Developer - File Delivery Automation - Nordea        :java:ruby:
    CLOSED: [2017-04-12 Wed 12:07]
 *** April 2011 - Dec 2011
-+ The aim of the project was to deliver a common, automated, scalable and managed solution for inter and intra-company  le deliveries.
-** DONE Java Developer - KAOS Consulting                 :java:spring:hadoop:
-   CLOSED: [2017-04-12 Wed 12:07]
++ Designed and built an automated tool for customisable and secure data delivery, removing multiple shaky solutions and manual processes using *Java* controller and *Ruby* remote agents
+** DONE Java Developer - Kaos Consulting                 :java:spring:hadoop:
+   CLOSED: [2017-04-13 Thu 07:36]
 *** Oct 2010 - April 2011
- + Picked as a top-developer for a project by empolyer throught International Exchange Bureau draft 
- + Built an automated data analysis and trend recognition tool
+ + Picked as a top-developer for a project by the employer through International Exchange Bureau draft 
+ + Built an automated data analysis and trend recognition APIs based upon *Hadoop* and *Java*
  + Implemented intra-language interfaces to accomodate existing subsystems providing an isolation layer
 
-** TODO Web Developer, m.photoblog.pl - PixNet                  :php:js:java:
-*** Oct 2010 - Jan 2009
-+ Built a mobile website and designed frontends  mobile application for the biggest polish photoblogging platform.
-
-** TODO Web Developer, PhotoSplash - PixNet
-*** Oct 2010 - Jan 2009
- The aim of the project was to build a web application allowing a user to input a photo and pick photo manipulation effect to be applied. 
+** DONE Web Developer - Photoblog.pl                            :php:js:java:
+   CLOSED: [2017-04-13 Thu 07:36]
+*** Oct 2007 - Jan 2009
++ Designed and built a mobile website (*PHP*, *JS*), application for the biggest polish photoblogging platform improving mobile usage of the platform several times
++ Cooperated on design and implementation (*Java*, *PHP*) of automated photomanipulation effects applied to given photos
 * Education
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: education

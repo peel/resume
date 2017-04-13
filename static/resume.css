@@ -97,7 +97,7 @@ h1,h2,h3{
 .header {
     grid-row: 1;
     grid-column: 1 / 3;
-    margin-bottom: 1em;
+    margin-bottom: 0;
 }
 .contact{
     grid-column: 2;
@@ -155,9 +155,6 @@ h2 {
 }
 .education h3, .experience h3 {
     margin: 0 0 0.4em 0;
-}
-.education b, .experience b{
-    color: rgb(56, 182, 171);
 }
 .skills h3, .languages h2 {
     padding-bottom: 0.2em;
