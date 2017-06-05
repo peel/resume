@@ -16,35 +16,32 @@
   :END:
 ** DONE Technical Architect - Schibsted Tech Polska :scala:elixir:js:docker:aws:akka:
    CLOSED: [2017-04-12 Wed 09:42]
-*** Jan 2015 - to date
-    + Co-lead innovative project of migrating a whole media house into *Amazon Web Services* reducing operations costs and delivery times
-    + Built a highly-optimised, business workflow-oriented, distributed authorisation, authentication, and payment layer built on top of *Scala* (both actor model - akka and functional typelevel stack) and *Elixir*
+*** Jan 2015 - to date - Gdansk, PL
+    + Co-lead an innovative project of migrating a whole media house into *Amazon Web Services* reducing operations costs and delivery times
+    + Built a highly-optimised, business workflow-oriented, distributed authorisation, authentication, and payment layer built on top of *Scala* (akka and functional typelevel stack) and *Elixir*
     + Designed and built administrative tools for process management based upon *Elixir/OTP* improving monitoring, response times and error handling
     + Built development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
 
 ** DONE Technical Architect - Middleware Services - Nordea       :java:scala:
    CLOSED: [2017-04-12 Wed 12:07]
-*** Jan 2012 - Dec 2014
+*** Jan 2012 - Dec 2014 - Gdynia, PL
     + Designed and built *Java* and *Scala* middleware, business services stack enabling fast service delivery, scalability, simple integration and changeability
     + Built and introduced development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
 ** DONE Java Developer - Financial Analysis & Reporting - Nordea  :java:ruby:
    CLOSED: [2017-04-12 Wed 12:07]
-*** April 2011 - Dec 2011
+*** April 2011 - Dec 2011 - Gdynia, PL
     + Lead and implemented *Java* and *Ruby* backends for an international rating calculation, analysis and reporting tool
-** DONE Java Developer - File Delivery Automation - Nordea        :java:ruby:
-   CLOSED: [2017-04-12 Wed 12:07]
-*** April 2011 - Dec 2011
-+ Designed and built an automated tool for customisable and secure data delivery, removing multiple shaky solutions and manual processes using *Java* controller and *Ruby* remote agents
+    + Designed and built an automated tool for customisable and secure data delivery, removing multiple shaky solutions and manual processes using *Java* controller and *Ruby* remote agents
 ** DONE Java Developer - Kaos Consulting                 :java:spring:hadoop:
    CLOSED: [2017-04-13 Thu 07:36]
-*** Oct 2010 - April 2011
- + Picked as a top-developer for a project by the employer through International Exchange Bureau draft 
- + Built an automated data analysis and trend recognition APIs based upon *Hadoop* and *Java*
- + Implemented intra-language interfaces to accomodate existing subsystems providing an isolation layer
+*** Oct 2010 - April 2011 - Sydney, Australia
+ + Picked as top-developer for skilled migration international exchange programme
+ + Built an automated data analysis and trend recognition APIs based upon *Hadoop*, *Java*
+ + Implemented interfaces to accomodate existing subsystems providing an isolation layer
 
 ** DONE Web Developer - Photoblog.pl                            :php:js:java:
    CLOSED: [2017-04-13 Thu 07:36]
-*** Oct 2007 - Jan 2009
+*** Oct 2007 - Jan 2009 - Gdansk, PL
 + Designed and built a mobile website (*PHP*, *JS*), application for the biggest polish photoblogging platform improving mobile usage of the platform several times
 + Cooperated on design and implementation (*Java*, *PHP*) of automated photomanipulation effects applied to given photos
 * Education
@@ -70,11 +67,11 @@
   :END:
 *** Elixir
   :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-40
+  :HTML_CONTAINER_CLASS: percent-60
   :END:
 *** JS
   :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-80
+  :HTML_CONTAINER_CLASS: percent-60
   :END:
 *** Java
   :PROPERTIES:
@@ -88,12 +85,12 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
   :END:
-** TODO Tooling
+** TODO Tools
 *** Git
 *** Docker
 *** Amazon WS
-*** Continuous Delivery
-*** TDD/BDD
+*** Ansible
+*** Jenkins/Concourse
 ** DONE Professional
    CLOSED: [2017-04-03 Mon 09:40]
 *** Problem Solving
@@ -118,4 +115,4 @@
     :HTML_CONTAINER_CLASS: percent-20
     :END:
 
-#+INCLUDE: include/html-footer.org :minlevel 1
+#+INCLUDE: include/pl.org :minlevel 1

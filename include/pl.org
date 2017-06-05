@@ -1,6 +1,6 @@
-  * DONE Footer
-    CLOSED: [2017-04-04 Tue 09:09]
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: footer
-    :END:
-    Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Ustawą z dn. 29.08.97 o Ochronie Danych Osobowych, Dz. Ust. Nr 133 poz. 883.
+* DONE Footer
+  CLOSED: [2017-04-04 Tue 09:09]
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: footer
+  :END:
+I hereby give consent for my personal data included in the job offer to be processed for the purposes of recruitment under the Data Protection Act 1997 (Dz. U. no. 133, item 883)”
