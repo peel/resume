@@ -1,5 +1,4 @@
 #+HTML: <div class="A4"><section class="sheet">
-#+HTML: <div class="hexagon"><div class="hexTop"></div><div class="hexBottom"></div></div>
 
 * Piotr Limanowski
   :PROPERTIES:

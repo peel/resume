@@ -8,9 +8,26 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: contact
   :END:
-- email :: [[mailto:piotr@codearsonist.com][piotr@codearsonist.com]] 
-- phone :: +48725812011
-- web :: [[https://codearsonist.com][codearsonist.com]]
+** photo
+   :PROPERTIES:
+  :HTML_CONTAINER_CLASS: photo
+  :END:
+** [[mailto:piotr@codearsonist.com][piotr@codearsonist.com]]
+   :PROPERTIES:
+  :HTML_CONTAINER_CLASS: email
+  :END:
+** +48 725 812 011
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: phone
+  :END:
+** [[https://codearsonist.com][codearsonist.com]]
+   :PROPERTIES:
+  :HTML_CONTAINER_CLASS: web
+  :END:
+** [[https://github.com/peel][github.com/peel]]
+   :PROPERTIES:
+  :HTML_CONTAINER_CLASS: github
+  :END:
 * Experience
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: experience
@@ -53,7 +70,6 @@
    CLOSED: [2017-04-03 Mon 09:40]
 *** Electronics, Telecommunications and Informatics Faculty
  MA thesis: /"Face Recognition in the crowd using high resolution camera image"/. Developed in Java with JNI for compatibility with supercomputer. 
-
  *Grade:* Distinction
 
 * Skills
