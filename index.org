@@ -41,7 +41,7 @@
 
 ** DONE Web Developer - Photoblog.pl                            :php:js:java:
    CLOSED: [2017-04-13 Thu 07:36]
-*** Oct 2007 - Jan 2009
+*** Jan 2008 - Oct 2010
 + Designed and built a mobile website (*PHP*, *JS*), application for the biggest polish photoblogging platform improving mobile usage of the platform several times
 + Cooperated on design and implementation (*Java*, *PHP*) of automated photomanipulation effects applied to given photos
 * Education
