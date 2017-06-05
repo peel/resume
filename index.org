@@ -9,6 +9,7 @@
   :HTML_CONTAINER_CLASS: contact
   :END:
 - email :: [[mailto:piotr@codearsonist.com][piotr@codearsonist.com]] 
+- phone :: +48725812011
 - web :: [[https://codearsonist.com][codearsonist.com]]
 * Experience
   :PROPERTIES:
