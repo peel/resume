@@ -84,7 +84,7 @@
   :END:
 *** Elixir
   :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-60
+  :HTML_CONTAINER_CLASS: percent-80
   :END:
 *** JS
   :PROPERTIES:
