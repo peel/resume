@@ -43,7 +43,7 @@
 ** DONE Technical Architect - Middleware Services - Nordea       :java:scala:
    CLOSED: [2017-04-12 Wed 12:07]
 *** Jan 2012 - Dec 2014
-    + Designed and built *Java* and *Scala* middleware, business services stack enabling fast service delivery, scalability, simple integration and changeability
+    + Designed and built *Java* middleware and internal *Scala* tooling, business services stack enabling fast service delivery, scalability, simple integration and changeability
     + Built and introduced development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
 ** DONE Java Developer - Financial Analysis & Reporting - Nordea  :java:ruby:
    CLOSED: [2017-04-12 Wed 12:07]
@@ -131,13 +131,6 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-40
   :END:
-** DONE Professional
-   CLOSED: [2017-04-03 Mon 09:40]
-*** Problem Solving
-*** Technical Leadership
-*** Public Speaking
-*** Goal Orientation
-*** Commitment
 * DONE Languages
   CLOSED: [2017-04-03 Mon 11:11]
   :PROPERTIES:
@@ -157,3 +150,22 @@
     :END:
 
 #+INCLUDE: include/pl.org :minlevel 1
+* TODO Courses
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: courses
+  :END:
+*** Coursera Scala
+*** Coursera Algorithms
+*** Coursera Big Data
+* TODO [[https://codearsonist.com][Speaking]] 
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: talks
+  :END:
+*** Some me of my talks:
+  - [[https://codearsonist.com/talks/multi-platform-paradigm-programming][Multi { Platform, Paradigm }]]
+  - [[https://codearsonist.com/talks/multi-platform-paradigm-programming][De⎇ it!]]
+  - [[https://codearsonist.com/talks/forgetting-java-why-java-should-die-in-flames-and-take-it-s-developers-along][Forgetting Java]]
+  - [[https://codearsonist.com/talks/forgetting-java-why-java-should-die-in-flames-and-take-it-s-developers-along][Zen of Refactoring]]
+  - more at [[https://codearsonist.com][codearsonist.com]]
+
+  #+INCLUDE: include/pl.org :minlevel 1

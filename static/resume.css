@@ -26,7 +26,7 @@ h1,h2,h3{
     font-size: 2.6em;
     font-weight: 500;
 }
-.skills h4, .languages h4 {
+.skills h4, .languages h4, .courses h4, .talks h4 {
     font: 200 1em "Roboto";
     margin:0.2em 0;
 }
@@ -89,10 +89,10 @@ h1,h2,h3{
     max-width: 1100px;
     margin: 0 auto;
 }
-.header, .experience, .education, .contact, .skills, .languages{
+.header, .experience, .education, .contact, .skills, .languages, .courses, .talks{
     margin-bottom: 0;
 }
-.contact, .skills, .languages{
+.contact, .skills, .languages, .courses, .talks{
     margin-left: 2em;
     grid-column-align: start;
     grid-row-align: start;
@@ -123,15 +123,23 @@ h1,h2,h3{
     grid-column: 2;
     grid-row: 4;
 }
+.courses{
+    grid-column: 2;
+    grid-row: 5;
+}
+.talks{
+    grid-column: 2;
+    grid-row: 6;
+}
 .footer{
     grid-column-start: 1;
     grid-column-end: span 2;
-    grid-row-start: 7;
-    grid-row-start: 7;
+    grid-row-start: 10;
+    grid-row-start: 9;
     font: 300 0.6em "Roboto";
     text-align: center;
     background-color: rgb(56, 182, 171);
-    margin: 0 -10mm -8mm -10mm;
+    margin: 3mm -10mm -8mm -10mm;
     height: 8mm;
     padding: 0;
 }
@@ -181,10 +189,73 @@ h2 {
     content: "\f042";
     color: rgb(56, 182, 171);
 }
+.courses h2, .talks h2 {
+    padding-bottom: 0.3em;
+    margin-bottom: 0.5em;
+}
 .skills h3, .languages h2 {
     padding-bottom: 0.3em;
     border-bottom: 0.15em dotted rgb(56, 182, 171);
+    margin-bottom: 0.5em;
 }
+.talks a {
+    color: #fff;
+}
+.talks a::after, .talks ul li a::after{
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    float: left;
+    content: "\f08e";
+    margin-top: -1mm;
+    padding: 0.1em 0.3em 0 0;
+    font-size: 0.8em;
+    width: 1em;
+    position: relative;
+    top: 0.25em;
+    color: #fff;
+}
+.talks ul li:nth-last-child(2){
+    padding-bottom: 0.3em;
+}
+.talks ul li:last-child a::after{
+    padding-top: 0.3em;
+    content: "";
+}
+.talks ul li:last-child{
+    border-top: 0.15em dotted #aaa;
+    padding-top: 0.2em;
+    text-align: center;
+}
+.talks ul li a{
+    color: #333;
+}
+.talks ul li a::after{
+    color: #333;
+}
+.experience div h3:first-child::before, .education div h3:first-child::before{
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    float: left;
+    content: "\f111";
+    margin-left: -0.5em;
+    padding: 0 0.3em 0 0;
+    font-size: 1.25em;
+    width: 1em;
+    position: relative;
+    top: 0.25em;
+    color: #aaa;
+}
+.experience div:nth-of-type(2) h3:first-child::before {
+    content: "\f042";
+    color: rgb(56, 182, 171);
+}
+
 .todo, .done{
     display:none;
 }
@@ -197,12 +268,18 @@ h2 {
     padding: 0;
     line-height: 50%;
 }
-.outline-text-4 ul{
-    padding: 0 0 0 7.5mm;
+.outline-text-4 ul, .outline-text-2 ul{
     margin-bottom: 0;
     font: 300 0.9em "Roboto";
     line-height: 150%;
-    list-style: dot;
+}
+.outline-text-4 ul{
+    margin-top: 2mm;
+    list-style: none;
+    padding: 0 0 0 2mm;
+}
+.outline-text-2 ul{
+    padding: 0 0 0 5mm;
 }
 .education .outline-3, .experience .outline-3{
     padding: 0.1em 0 1.2em 0;
