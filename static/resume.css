@@ -28,7 +28,7 @@ h1,h2,h3{
 }
 .skills h4, .languages h4, .courses h4, .talks h4 {
     font: 200 1em "Roboto";
-    margin:0.2em 0;
+    margin:0 0 0.2em 0;
 }
 .percent-20 h3, .percent-40 h3, .percent-60 h3, .percent-80 h3, .percent-100 h3,
 .percent-20 h4, .percent-40 h4, .percent-60 h4, .percent-80 h4, .percent-100 h4 {
@@ -189,14 +189,19 @@ h2 {
     content: "\f042";
     color: rgb(56, 182, 171);
 }
-.courses h2, .talks h2 {
-    padding-bottom: 0.3em;
-    margin-bottom: 0.5em;
+.skills h2, .courses h2, .talks h2, .languages h2 {
+    padding-bottom: 0.2em;
+    margin: 0 0 0.3em 0;
 }
-.skills h3, .languages h2 {
+.skills h3 {
     padding-bottom: 0.3em;
     border-bottom: 0.15em dotted rgb(56, 182, 171);
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
+}
+.talks div ul {
+    list-style: none;
+    margin-top: 2mm;
+    padding: 0 0 0 2mm;
 }
 .talks a {
     color: #fff;
@@ -218,16 +223,17 @@ h2 {
     color: #fff;
 }
 .talks ul li:nth-last-child(2){
-    padding-bottom: 0.3em;
+    padding: 0 0 0.3em 0;
 }
 .talks ul li:last-child a::after{
-    padding-top: 0.3em;
+    padding: 0.3em 0 0 0;
     content: "";
 }
 .talks ul li:last-child{
     border-top: 0.15em dotted #aaa;
     padding-top: 0.2em;
     text-align: center;
+    margin-left: -2mm;
 }
 .talks ul li a{
     color: #333;
@@ -260,7 +266,7 @@ h2 {
     display:none;
 }
 .education h2{
-    margin-top: 0;
+    margin: 0 0 0.3em 0;
 }
 .education h4, .experience h4{
     color: rgb(56, 182, 171);
@@ -274,9 +280,7 @@ h2 {
     line-height: 150%;
 }
 .outline-text-4 ul{
-    margin-top: 2mm;
-    list-style: none;
-    padding: 0 0 0 2mm;
+    padding: 0 0 0 7.5mm;
 }
 .outline-text-2 ul{
     padding: 0 0 0 5mm;
