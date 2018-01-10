@@ -16,7 +16,7 @@
    :PROPERTIES:
   :HTML_CONTAINER_CLASS: email
   :END:
-** +48 725 812 011
+** +48 508 627 707
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: phone
   :END:
@@ -32,10 +32,16 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: experience
   :END:
+** DONE Software Developer - Real Estate Software       :scala:js:docker:aws:
+   CLOSED: [2018-01-10 Wed 13:54]
+*** Oct 2017 - to date
+    + Built a purely-functional user behaviour tracking on top of *Scala* (http4s, cats, typelevel stack) for real estate platforms
+    + Rebuilt development experience and *continuous delivery* that improved development and delivery times by a level of magnitude
+
 ** DONE Technical Architect - Schibsted Tech Polska :scala:elixir:js:docker:aws:akka:
    CLOSED: [2017-04-12 Wed 09:42]
-*** Jan 2015 - to date
-    + Co-lead an innovative project of migrating a whole media house into *Amazon Web Services* reducing operations costs and delivery times
+*** Jan 2015 - Sep 2017
+    + Co-lead an innovative project of migrating a media house into *Amazon Web Services* reducing operations costs and delivery times
     + Built a highly-optimised, business workflow-oriented, distributed authorisation, authentication, and payment layer built on top of *Scala* (akka and functional typelevel stack) and *Elixir*
     + Designed and built administrative tools for process management based upon *Elixir/OTP* improving monitoring, response times and error handling
     + Built development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
@@ -43,25 +49,25 @@
 ** DONE Technical Architect - Middleware Services - Nordea       :java:scala:
    CLOSED: [2017-04-12 Wed 12:07]
 *** Jan 2012 - Dec 2014
-    + Designed and built *Java* middleware and internal *Scala* tooling, business services stack enabling fast service delivery, scalability, simple integration and changeability
+    + Designed and built *Java* middleware and *Scala* tooling, business services stack enabling fast service delivery, scalability, simple integration and changeability
     + Built and introduced development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
 ** DONE Java Developer - Financial Analysis & Reporting - Nordea  :java:ruby:
    CLOSED: [2017-04-12 Wed 12:07]
 *** April 2011 - Dec 2011
     + Lead and implemented *Java* and *Ruby* backends for an international rating calculation, analysis and reporting tool
-    + Designed and built an automated tool for customisable and secure data delivery, removing multiple shaky solutions and manual processes using *Java* controller and *Ruby* remote agents
+    + Designed and built an automated (*Java* controller, *Ruby* agents) tool for customisable and secure data delivery, removing shaky solutions and manual processes
 ** DONE Java Developer - Kaos Consulting                 :java:spring:hadoop:
    CLOSED: [2017-04-13 Thu 07:36]
 *** Oct 2010 - April 2011
  + Picked as top-developer for skilled migration international exchange programme
- + Built an automated data analysis and trend recognition APIs based upon *Hadoop*, *Java*
- + Implemented interfaces to accomodate existing subsystems providing an isolation layer
+ + Built an automated data analysis and trend recognition APIs with *Hadoop*, *Java*
+ + Integrated existing subsystems to accomodate available features
 
 ** DONE Web Developer - Photoblog.pl                            :php:js:java:
    CLOSED: [2017-04-13 Thu 07:36]
 *** Jan 2008 - Oct 2010
 + Designed and built a mobile website (*PHP*, *JS*), application for the biggest polish photoblogging platform improving mobile usage of the platform several times
-+ Cooperated on design and implementation (*Java*, *PHP*) of automated photomanipulation effects applied to given photos
++ Cooperated on design and implementation (*Java*, *PHP*) of automated photomanipulation effects
 * Education
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: education
@@ -150,18 +156,12 @@
     :END:
 
 #+INCLUDE: include/pl.org :minlevel 1
-* TODO Courses
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: courses
-  :END:
-*** Coursera Scala
-*** Coursera Algorithms
-*** Coursera Big Data
-* TODO [[https://codearsonist.com][Speaking]] 
+* TODO [[https://codearsonist.com][Speaking]]
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: talks
   :END:
 *** Some me of my talks:
+  - [[https://codearsonist.com/talks/its-all-broken][It's All Broken]]
   - [[https://codearsonist.com/talks/multi-platform-paradigm-programming][Multi { Platform, Paradigm }]]
   - [[https://codearsonist.com/talks/multi-platform-paradigm-programming][De⎇ it!]]
   - [[https://codearsonist.com/talks/forgetting-java-why-java-should-die-in-flames-and-take-it-s-developers-along][Forgetting Java]]
@@ -169,3 +169,10 @@
   - more at [[https://codearsonist.com][codearsonist.com]]
 
   #+INCLUDE: include/pl.org :minlevel 1
+* TODO Courses
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: courses
+  :END:
+*** Coursera Scala
+*** Coursera Algorithms
+*** Coursera Big Data
