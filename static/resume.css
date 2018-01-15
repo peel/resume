@@ -1,3 +1,8 @@
+@media print {
+  html {
+    font-size: 92.5%;
+  }
+}
 @page { size: A4 }
 body {
     text-align:left;

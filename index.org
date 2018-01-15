@@ -35,15 +35,15 @@
 ** DONE Software Developer - Real Estate Software       :scala:js:docker:aws:
    CLOSED: [2018-01-10 Wed 13:54]
 *** Oct 2017 - to date
-    + Built a purely-functional user behaviour tracking on top of *Scala* (http4s, cats, typelevel stack) for real estate platforms
-    + Rebuilt development experience and *continuous delivery* that improved development and delivery times by a level of magnitude
+    + Built a purely-functional behaviour tracking with *Scala* (http4s, cats, typelevel stack) for real estate platforms
+    + Rebuilt development environments and continuous delivery that improved development and delivery times by a level of magnitude
 
 ** DONE Technical Architect - Schibsted Tech Polska :scala:elixir:js:docker:aws:akka:
    CLOSED: [2017-04-12 Wed 09:42]
 *** Jan 2015 - Sep 2017
     + Co-lead an innovative project of migrating a media house into *Amazon Web Services* reducing operations costs and delivery times
     + Built a highly-optimised, business workflow-oriented, distributed authorisation, authentication, and payment layer built on top of *Scala* (akka and functional typelevel stack) and *Elixir*
-    + Designed and built administrative tools for process management based upon *Elixir/OTP* improving monitoring, response times and error handling
+    + Designed and built administrative tools for process management with *Elixir/OTP* improving monitoring, response times and error handling
     + Built development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
 
 ** DONE Technical Architect - Middleware Services - Nordea       :java:scala:
