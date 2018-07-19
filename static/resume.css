@@ -1,338 +1,382 @@
 @media print {
   html {
-    font-size: 92.5%;
+    font-size: 96%;
   }
 }
-@page { size: A4 }
+@page {
+  size: A4;
+}
+@media screen {
+  html {
+    font-size: 120%;
+  }
+}
 body {
-    text-align:left;
-    font: 300 0.9em "Roboto";
-    text-align: justify;
-    line-height: 125%;
-    word-wrap: break-word;
-    color: #333;
-    background-color: #fefefe;
+  text-align: left;
+  font: 300 0.8em "Roboto";
+  text-align: justify;
+  line-height: 125%;
+  word-wrap: break-word;
+  color: #333;
+  background-color: #fefefe;
 }
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
-h1,h2{
-    color: #fff;
+h1,
+h2 {
+  color: #fff;
 }
-h1,h2,h3{
-    font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
-    font-weight: 500;
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
+  font-weight: 500;
 }
-.header h2{
-    margin:0 -10mm;
-    padding: 6mm 10mm;
-    letter-spacing: 0em;
-    font-size: 2.6em;
-    font-weight: 500;
+.header h2 {
+  margin: 0 -10mm;
+  padding: 6mm 10mm;
+  letter-spacing: 0em;
+  font-size: 2.6em;
+  font-weight: 500;
 }
-.skills h4, .languages h4, .courses h4, .talks h4 {
-    font: 200 1em "Roboto";
-    margin:0 0 0.2em 0;
+.skills h4,
+.languages h4,
+.courses h4,
+.talks h4 {
+  font: 200 1em "Roboto";
+  margin: 0 0 0.2em 0;
 }
-.percent-20 h3, .percent-40 h3, .percent-60 h3, .percent-80 h3, .percent-100 h3,
-.percent-20 h4, .percent-40 h4, .percent-60 h4, .percent-80 h4, .percent-100 h4 {
-    width: 50%;
+.percent-20 h3,
+.percent-40 h3,
+.percent-60 h3,
+.percent-80 h3,
+.percent-100 h3,
+.percent-20 h4,
+.percent-40 h4,
+.percent-60 h4,
+.percent-80 h4,
+.percent-100 h4 {
+  width: 50%;
 }
-.percent-20:after{
-    content:" ";
-    display:block;
-    background:rgb(56, 182, 171);
-    height:0.7em;
-    border-radius:1em;
-    margin:-1.1em 0 0 50%;
-    width:10%;
+.percent-20:after {
+  content: " ";
+  display: block;
+  background: rgb(56, 182, 171);
+  height: 0.7em;
+  border-radius: 1em;
+  margin: -1.1em 0 0 50%;
+  width: 10%;
 }
-.percent-40:after{
-    content:" ";
-    display:block;
-    background:rgb(56, 182, 171);
-    height:0.7em;
-    border-radius:1em;
-    margin:-1.1em 0 0 50%;
-    width:20%;
+.percent-40:after {
+  content: " ";
+  display: block;
+  background: rgb(56, 182, 171);
+  height: 0.7em;
+  border-radius: 1em;
+  margin: -1.1em 0 0 50%;
+  width: 20%;
 }
-.percent-60:after{
-    content:" ";
-    display:block;
-    background:rgb(56, 182, 171);
-    height:0.7em;
-    border-radius:1em;
-    margin:-1.1em 0 0 50%;
-    width:30%;
+.percent-60:after {
+  content: " ";
+  display: block;
+  background: rgb(56, 182, 171);
+  height: 0.7em;
+  border-radius: 1em;
+  margin: -1.1em 0 0 50%;
+  width: 30%;
 }
-.percent-80:after{
-    content:" ";
-    display:block;
-    background:rgb(56, 182, 171);
-    height:0.7em;
-    border-radius:1em;
-    margin:-1.1em 0 0 50%;
-    width:40%;
+.percent-80:after {
+  content: " ";
+  display: block;
+  background: rgb(56, 182, 171);
+  height: 0.7em;
+  border-radius: 1em;
+  margin: -1.1em 0 0 50%;
+  width: 40%;
 }
-.percent-100:after{
-    content:" ";
-    display:block;
-    background:rgb(56, 182, 171);
-    height:0.7em;
-    border-radius:1em;
-    margin:-1.1em 0 0 50%;
-    width:50%;
+.percent-100:after {
+  content: " ";
+  display: block;
+  background: rgb(56, 182, 171);
+  height: 0.7em;
+  border-radius: 1em;
+  margin: -1.1em 0 0 50%;
+  width: 50%;
 }
-.sheet{
-    display: grid;
-    height: 100%;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: audo auto;
-    align-items: start;
-    padding: 0 5mm 8mm 5mm;
-    max-width: 1100px;
-    margin: 0 auto;
+.sheet {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: audo auto;
+  align-items: start;
+  padding: 0 5mm 8mm 5mm;
+  max-width: 1100px;
+  margin: 0 auto;
 }
-.header, .experience, .education, .contact, .skills, .languages, .courses, .talks{
-    margin-bottom: 0;
+.header,
+.experience,
+.education,
+.contact,
+.skills,
+.languages,
+.courses,
+.talks {
+  margin-bottom: 0;
 }
-.contact, .skills, .languages, .courses, .talks{
-    margin-left: 2em;
-    grid-column-align: start;
-    grid-row-align: start;
+.contact,
+.skills,
+.languages,
+.courses,
+.talks {
+  margin-left: 2em;
+  grid-column-align: start;
+  grid-row-align: start;
 }
 .header {
-    grid-row: 1;
-    grid-column: 1 / 3;
-    margin-bottom: 0;
+  grid-row: 1;
+  grid-column: 1 / 3;
+  margin-bottom: 0;
 }
-.contact{
-    grid-column: 2;
-    grid-row: 2;
+.contact {
+  grid-column: 2;
+  grid-row: 2;
 }
-.experience{
-    grid-row-start: 2;
-    grid-row-end: span 4;
-    grid-column: 1;
+.experience {
+  grid-row-start: 2;
+  grid-row-end: span 4;
+  grid-column: 1;
 }
-.education{
-    grid-column: 1;
-    grid-row: 6;
+.education {
+  grid-column: 1;
+  grid-row: 6;
 }
-.skills{
-    grid-column: 2;
-    grid-row: 3;
+.skills {
+  grid-column: 2;
+  grid-row: 3;
 }
-.languages{
-    grid-column: 2;
-    grid-row: 4;
+.languages {
+  grid-column: 2;
+  grid-row: 4;
 }
-.courses{
-    grid-column: 2;
-    grid-row: 6;
+.courses {
+  grid-column: 2;
+  grid-row: 6;
 }
-.talks{
-    grid-column: 2;
-    grid-row: 5;
+.talks {
+  grid-column: 2;
+  grid-row: 5;
 }
-.footer{
-    grid-column-start: 1;
-    grid-column-end: span 2;
-    grid-row-start: 10;
-    grid-row-start: 9;
-    font: 300 0.6em "Roboto";
-    text-align: center;
-    background-color: rgb(56, 182, 171);
-    margin: 3mm -10mm -8mm -10mm;
-    height: 8mm;
-    padding: 0;
+.footer {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 10;
+  grid-row-start: 9;
+  font: 300 0.6em "Roboto";
+  text-align: center;
+  background-color: rgb(56, 182, 171);
+  margin: 3mm -10mm -8mm -10mm;
+  height: 8mm;
+  padding: 0;
 }
 .footer .outline-text-2 {
-    height: 100%;
-    vertical-align: middle;
+  height: 100%;
+  vertical-align: middle;
 }
-.footer h1, .footer h2{
-    display:none;
+.footer h1,
+.footer h2 {
+  display: none;
 }
 p {
-    font: 300 0.9em "Roboto";
-    line-height: 125%;
-    letter-spacing: 125%;
-    padding: 0;
-    margin: 0.8em 0 0 0;
+  font: 300 0.9em "Roboto";
+  line-height: 125%;
+  letter-spacing: 125%;
+  padding: 0;
+  margin: 0.8em 0 0 0;
 }
 h2 {
-    display: block;
-    width: 100%;
-    background-color: rgb(56, 182, 171);
-    padding: 0.2em;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+  display: block;
+  width: 100%;
+  background-color: rgb(56, 182, 171);
+  padding: 0.2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
-.education h3, .experience h3 {
-    margin: 0 0 0.4em 0;
-    padding-left: 1em;
+.education h3,
+.experience h3 {
+  margin: 0 0 0.4em 0;
+  padding-left: 1em;
 }
-.experience div h3:first-child::before, .education div h3:first-child::before{
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
-    text-decoration: inherit;
-    float: left;
-    content: "\f111";
-    margin-left: -0.5em;
-    padding: 0 0.3em 0 0;
-    font-size: 1.25em;
-    width: 1em;
-    position: relative;
-    top: 0.25em;
-    color: #aaa;
+.experience div h3:first-child::before,
+.education div h3:first-child::before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  float: left;
+  content: "\f111";
+  margin-left: -0.5em;
+  padding: 0 0.3em 0 0;
+  font-size: 1.25em;
+  width: 1em;
+  position: relative;
+  top: 0.25em;
+  color: #aaa;
 }
 .experience div:nth-of-type(2) h3:first-child::before {
-    content: "\f042";
-    color: rgb(56, 182, 171);
+  content: "\f042";
+  color: rgb(56, 182, 171);
 }
-.skills h2, .courses h2, .talks h2, .languages h2 {
-    padding-bottom: 0.2em;
-    margin: 0 0 0.3em 0;
+.skills h2,
+.courses h2,
+.talks h2,
+.languages h2 {
+  padding-bottom: 0.2em;
+  margin: 0 0 0.3em 0;
 }
 .skills h3 {
-    padding-bottom: 0.3em;
-    border-bottom: 0.15em dotted rgb(56, 182, 171);
-    margin-bottom: 0.3em;
+  padding-bottom: 0.3em;
+  border-bottom: 0.15em dotted rgb(56, 182, 171);
+  margin-bottom: 0.3em;
 }
 .talks div ul {
-    list-style: none;
-    margin-top: 2mm;
-    padding: 0 0 0 2mm;
+  list-style: none;
+  margin-top: 2mm;
+  padding: 0 0 0 2mm;
 }
 .talks a {
-    color: #fff;
+  color: #fff;
 }
-.talks a::after, .talks ul li a::after{
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
-    text-decoration: inherit;
-    float: left;
-    content: "\f08e";
-    margin-top: -1mm;
-    padding: 0.1em 0.3em 0 0;
-    font-size: 0.8em;
-    width: 1em;
-    position: relative;
-    top: 0.25em;
-    color: #fff;
+.talks a::after,
+.talks ul li a::after {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  float: left;
+  content: "\f08e";
+  margin-top: -1mm;
+  padding: 0.1em 0.3em 0 0;
+  font-size: 0.8em;
+  width: 1em;
+  position: relative;
+  top: 0.25em;
+  color: #fff;
 }
-.talks ul li:nth-last-child(2){
-    padding: 0 0 0.3em 0;
+.talks ul li:nth-last-child(2) {
+  padding: 0 0 0.3em 0;
 }
-.talks ul li:last-child a::after{
-    padding: 0.3em 0 0 0;
-    content: "";
+.talks ul li:last-child a::after {
+  padding: 0.3em 0 0 0;
+  content: "";
 }
-.talks ul li:last-child{
-    border-top: 0.15em dotted #aaa;
-    padding-top: 0.2em;
-    text-align: center;
-    margin-left: -2mm;
+.talks ul li:last-child {
+  border-top: 0.15em dotted #aaa;
+  padding-top: 0.2em;
+  text-align: center;
+  margin-left: -2mm;
 }
-.talks ul li a{
-    color: #333;
+.talks ul li a {
+  color: #333;
 }
-.talks ul li a::after{
-    color: #333;
+.talks ul li a::after {
+  color: #333;
 }
-.experience div h3:first-child::before, .education div h3:first-child::before{
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
-    text-decoration: inherit;
-    float: left;
-    content: "\f111";
-    margin-left: -0.5em;
-    padding: 0 0.3em 0 0;
-    font-size: 1.25em;
-    width: 1em;
-    position: relative;
-    top: 0.25em;
-    color: #aaa;
+.experience div h3:first-child::before,
+.education div h3:first-child::before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  float: left;
+  content: "\f111";
+  margin-left: -0.5em;
+  padding: 0 0.3em 0 0;
+  font-size: 1.25em;
+  width: 1em;
+  position: relative;
+  top: 0.25em;
+  color: #aaa;
 }
 .experience div:nth-of-type(2) h3:first-child::before {
-    content: "\f042";
-    color: rgb(56, 182, 171);
+  content: "\f042";
+  color: rgb(56, 182, 171);
 }
 
-.todo, .done{
-    display:none;
+.todo,
+.done {
+  display: none;
 }
-.education h2{
-    margin: 0 0 0.3em 0;
+.education h2 {
+  margin: 0 0 0.3em 0;
 }
-.education h4, .experience h4{
-    color: rgb(56, 182, 171);
-    margin: 0 0 0 2.5em;
-    padding: 0;
-    line-height: 50%;
+.education h4,
+.experience h4 {
+  color: rgb(56, 182, 171);
+  margin: 0 0 0 2.5em;
+  padding: 0;
+  line-height: 50%;
 }
-.outline-text-4 ul, .outline-text-2 ul{
-    margin-bottom: 0;
-    font: 300 0.9em "Roboto";
-    line-height: 150%;
+.outline-text-4 ul,
+.outline-text-2 ul {
+  margin-bottom: 0;
+  font: 300 0.9em "Roboto";
+  line-height: 150%;
 }
-.outline-text-4 ul{
-    padding: 0 0 0 7.5mm;
+.outline-text-4 ul {
+  padding: 0 0 0 7.5mm;
 }
-.outline-text-2 ul{
-    padding: 0 0 0 5mm;
+.outline-text-2 ul {
+  padding: 0 0 0 5mm;
 }
-.education .outline-3, .experience .outline-3{
-    padding: 0.1em 0 1.2em 0;
+.education .outline-3,
+.experience .outline-3 {
+  padding: 0.1em 0 1.2em 0;
 }
-.contact h2{
-    display: none;
+.contact h2 {
+  display: none;
 }
-.contact h3{
-    font-size: 0.9em;
-    margin: 0.5em;
+.contact h3 {
+  font-size: 0.9em;
+  margin: 0.5em;
 }
 .contact .email::before,
 .contact .phone::before,
 .contact .web::before,
-.contact .github::before{
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
-    text-decoration: inherit;
-    float: left;
-    margin: 0 1em 0 0.3em;
+.contact .github::before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  float: left;
+  margin: 0 1em 0 0.3em;
 }
-.contact .email::before{
-    content: "\f0e0"
+.contact .email::before {
+  content: "\f0e0";
 }
-.contact .phone::before{
-    content: "\f095"
+.contact .phone::before {
+  content: "\f095";
 }
-.contact .web::before{
-    content: "\f0c1"
+.contact .web::before {
+  content: "\f0c1";
 }
-.contact .github::before{
-    content: "\f113"
+.contact .github::before {
+  content: "\f113";
 }
-.contact .photo h3{
-    display: none;
+.contact .photo h3 {
+  display: none;
 }
-.contact .photo{
-    margin: -17mm 0 0.3em 0;
-    content: " ";
-    width: 100%;
-    height: 55mm;
-    background-image: url(https://raw.githubusercontent.com/peel/talks/master/photo.jpg);
-    background-size: 100%;
-    background-position-y: 21%;
+.contact .photo {
+  margin: -17mm 0 0.3em 0;
+  content: " ";
+  width: 100%;
+  height: 55mm;
+  background-image: url(https://raw.githubusercontent.com/peel/talks/master/photo.jpg);
+  background-size: 100%;
+  background-position-y: 21%;
 }

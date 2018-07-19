@@ -32,9 +32,16 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: experience
   :END:
+** DONE Software Developer - Clariant                   :scala:js:docker:aws:
+   CLOSED: [2018-01-10 Wed 13:54]
+*** May 2018 - to date
+    - Built a streaming data processing for cloud analytics platform using *Scala* (cats, fs2) to optimise performance and time-to-market
+    - Introduced automated historical data sampling using *Scala* and *InfluxDB* to improve user experience and performance
+    - Implemented basic streaming analytics using Apache *Spark* as a proof of concept
+
 ** DONE Software Developer - Real Estate Software       :scala:js:docker:aws:
    CLOSED: [2018-01-10 Wed 13:54]
-*** Oct 2017 - to date
+*** Oct 2017 - Apr 2018
     + Built a purely-functional behaviour tracking with *Scala* (http4s, cats, typelevel stack) for real estate platforms
     + Rebuilt development environments and continuous delivery that improved development and delivery times by a level of magnitude
 
