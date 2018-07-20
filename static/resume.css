@@ -372,10 +372,10 @@ h2 {
   display: none;
 }
 .contact .photo {
-  margin: -17mm 0 0.3em 0;
+  margin: -18mm 0 0.3em 0;
   content: " ";
   width: 100%;
-  height: 55mm;
+  height: 77mm;
   background-image: url(https://raw.githubusercontent.com/peel/talks/master/photo.jpg);
   background-size: 100%;
   background-position-y: 21%;
