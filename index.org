@@ -32,49 +32,45 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: experience
   :END:
-** DONE Software Developer - Clariant                   :scala:js:docker:aws:
+** DONE Data Engineer - Snowplow Analytics :scala:js:docker:aws:gcp:terraform:
+*** Oct 2019 - to date
++ Introduced an automated data recovery for altering and reprocessing invalid
+  data (*Scala* cats fs2 scio) saving petabytes of data
++ Implemented a lightweight single-click Snowplow pipeline product allowing
+  customers to quickly run and evaluate the product
++ Built and evolved core streaming data pipeline components (*Scala* cats fs2 scio)  
+** DONE Software Developer - Navigance.com             :scala:js:docker:aws:
    CLOSED: [2018-01-10 Wed 13:54]
-*** May 2018 - to date
-    - Built a streaming data processing for cloud analytics platform using *Scala* (cats, fs2) to optimise performance and time-to-market
-    - Introduced automated historical data sampling using *Scala* and *InfluxDB* to improve user experience and performance
-    - Implemented basic streaming analytics using Apache *Spark* as a proof of concept
-
+*** May 2018 - Sep 2019
++ Built a streaming data processing for cloud analytics platform using *Scala* (cats, fs2) to optimise performance and time-to-market
++ Introduced automated historical data sampling using *Scala* and *InfluxDB* to improve user experience and performance
 ** DONE Software Developer - Real Estate Software       :scala:js:docker:aws:
    CLOSED: [2018-01-10 Wed 13:54]
 *** Oct 2017 - Apr 2018
-    + Built a purely-functional behaviour tracking with *Scala* (http4s, cats, typelevel stack) for real estate platforms
-    + Rebuilt development environments and continuous delivery that improved development and delivery times by a level of magnitude
-
-** DONE Technical Architect - Schibsted Tech Polska :scala:elixir:js:docker:aws:akka:
++ Built a purely-functional behaviour tracking with *Scala* (http4s, cats, typelevel stack) for real estate platforms
++ Rebuilt development environments and continuous delivery that improved development and delivery times by a level of magnitude
+** DONE Lead Developer - Schibsted.no      :scala:elixir:js:docker:aws:akka:
    CLOSED: [2017-04-12 Wed 09:42]
 *** Jan 2015 - Sep 2017
-    + Co-lead an innovative project of migrating a media house into *Amazon Web Services* reducing operations costs and delivery times
-    + Built a highly-optimised, business workflow-oriented, distributed authorisation, authentication, and payment layer built on top of *Scala* (akka and functional typelevel stack) and *Elixir*
-    + Designed and built administrative tools for process management with *Elixir/OTP* improving monitoring, response times and error handling
-    + Built development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
-
-** DONE Technical Architect - Middleware Services - Nordea       :java:scala:
++ Co-lead an innovative project of migrating a media house into *Amazon Web Services* reducing operations costs and delivery times
++ Built a highly-optimised, business workflow-oriented, distributed authorisation, authentication, and payment layer built on top of *Scala* (akka and functional typelevel stack) and *Elixir*
++ Designed and built administrative tools for process management with *Elixir/OTP* improving monitoring, response times and error handling
+** DONE Lead Developer - Middleware Services - Nordea.se        :java:scala:
    CLOSED: [2017-04-12 Wed 12:07]
-*** Jan 2012 - Dec 2014
-    + Designed and built *Java* middleware and *Scala* tooling, business services stack enabling fast service delivery, scalability, simple integration and changeability
-    + Built and introduced development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
-** DONE Java Developer - Financial Analysis & Reporting - Nordea  :java:ruby:
-   CLOSED: [2017-04-12 Wed 12:07]
-*** April 2011 - Dec 2011
-    + Lead and implemented *Java* and *Ruby* backends for an international rating calculation, analysis and reporting tool
-    + Designed and built an automated (*Java* controller, *Ruby* agents) tool for customisable and secure data delivery, removing shaky solutions and manual processes
+*** Jan 2011 - Dec 2014
++ Designed and built *Java* middleware and *Scala* tooling, business services stack enabling fast service delivery, scalability, simple integration and changeability
++ Built and introduced development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
++ Lead and implemented *Java* and *Ruby* backends for an financial rating calculation, analysis and reporting
++ Designed and built an automated (*Java*, *Ruby*) secure data delivery pipeline, removing shaky solutions and manual processes
 ** DONE Java Developer - Kaos Consulting                 :java:spring:hadoop:
    CLOSED: [2017-04-13 Thu 07:36]
 *** Oct 2010 - April 2011
  + Picked as top-developer for skilled migration international exchange programme
  + Built an automated data analysis and trend recognition APIs with *Hadoop*, *Java*
- + Integrated existing subsystems to accomodate available features
-
-** DONE Web Developer - Photoblog.pl                            :php:js:java:
+** DONE Web Developer - Photoblog.pl                            :java:js:
    CLOSED: [2017-04-13 Thu 07:36]
 *** Jan 2008 - Oct 2010
-+ Designed and built a mobile website (*PHP*, *JS*), application for the biggest polish photoblogging platform improving mobile usage of the platform several times
-+ Cooperated on design and implementation (*Java*, *PHP*) of automated photomanipulation effects
++ Designed and built a (*Java*, *JS*) an automated photomanipulation effects for the biggest polish photoblogging platform
 * Education
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: education
@@ -95,19 +91,23 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
   :END:
-*** Elixir
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-80
-  :END:
 *** JS
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-60
   :END:
-*** Java
+*** Haskell
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-60
+  :END:
+*** Nix
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
   :END:
-*** Ruby
+*** Java
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-60
+  :END:  
+*** Elixir
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-40
   :END:
@@ -116,7 +116,7 @@
   :HTML_CONTAINER_CLASS: percent-80
   :END:
 ** TODO Tools
-*** Git
+*** Git / GitHub
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
   :END:
@@ -124,23 +124,19 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
   :END:
-*** Ansible
+*** Terraform
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
   :END:
+*** Nix/NixOS
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-80
+  :END:  
 *** Emacs
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-60
   :END:
-*** Amazon WS
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-40
-  :END:
-*** Concourse
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-40
-  :END:
-*** Nix/NixOS
+*** AWS / GCP
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-40
   :END:

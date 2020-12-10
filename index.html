@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2018-07-19 Thu 17:04 -->
+<!-- 2020-12-10 Thu 09:41 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Piotr Limanowski</title>
@@ -43,7 +43,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -164,6 +164,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -189,118 +202,109 @@
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 <link rel="stylesheet" type="text/css" href="./static/resume.css" />
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
 <div id="content">
 <div class="A4"><section class="sheet">
 
-<div id="outline-container-org24a2841" class="outline-2 header">
-<h2 id="org24a2841">Piotr Limanowski</h2>
-<div class="outline-text-2" id="text-org24a2841">
+<div id="outline-container-orgc4d494a" class="outline-2 header">
+<h2 id="orgc4d494a">Piotr Limanowski</h2>
+<div class="outline-text-2" id="text-orgc4d494a">
 </div>
 </div>
-<div id="outline-container-orgb2e532b" class="outline-2 contact">
-<h2 id="orgb2e532b">Contact</h2>
-<div class="outline-text-2" id="text-orgb2e532b">
+<div id="outline-container-orgf834ebe" class="outline-2 contact">
+<h2 id="orgf834ebe">Contact</h2>
+<div class="outline-text-2" id="text-orgf834ebe">
 </div>
-<div id="outline-container-orgbe0e847" class="outline-3 photo">
-<h3 id="orgbe0e847">photo</h3>
-<div class="outline-text-3" id="text-orgbe0e847">
-</div>
-</div>
-<div id="outline-container-org1cb27e0" class="outline-3 email">
-<h3 id="org1cb27e0"><a href="mailto:piotr@codearsonist.com">piotr@codearsonist.com</a></h3>
-<div class="outline-text-3" id="text-org1cb27e0">
+<div id="outline-container-org5c382ea" class="outline-3 photo">
+<h3 id="org5c382ea">photo</h3>
+<div class="outline-text-3" id="text-org5c382ea">
 </div>
 </div>
-<div id="outline-container-org0b1e72b" class="outline-3 phone">
-<h3 id="org0b1e72b">+48 508 627 707</h3>
-<div class="outline-text-3" id="text-org0b1e72b">
+<div id="outline-container-orgd3ec8e0" class="outline-3 email">
+<h3 id="orgd3ec8e0"><a href="mailto:piotr@codearsonist.com">piotr@codearsonist.com</a></h3>
+<div class="outline-text-3" id="text-orgd3ec8e0">
 </div>
 </div>
-<div id="outline-container-orga735e10" class="outline-3 web">
-<h3 id="orga735e10"><a href="https://codearsonist.com">codearsonist.com</a></h3>
-<div class="outline-text-3" id="text-orga735e10">
+<div id="outline-container-org0fb9d8f" class="outline-3 phone">
+<h3 id="org0fb9d8f">+48 508 627 707</h3>
+<div class="outline-text-3" id="text-org0fb9d8f">
 </div>
 </div>
-<div id="outline-container-orgff1420e" class="outline-3 github">
-<h3 id="orgff1420e"><a href="https://github.com/peel">github.com/peel</a></h3>
-<div class="outline-text-3" id="text-orgff1420e">
+<div id="outline-container-org2c2dd92" class="outline-3 web">
+<h3 id="org2c2dd92"><a href="https://codearsonist.com">codearsonist.com</a></h3>
+<div class="outline-text-3" id="text-org2c2dd92">
+</div>
+</div>
+<div id="outline-container-orgf9b0feb" class="outline-3 github">
+<h3 id="orgf9b0feb"><a href="https://github.com/peel">github.com/peel</a></h3>
+<div class="outline-text-3" id="text-orgf9b0feb">
 </div>
 </div>
 </div>
-<div id="outline-container-orga7b7b59" class="outline-2 experience">
-<h2 id="orga7b7b59">Experience</h2>
-<div class="outline-text-2" id="text-orga7b7b59">
+<div id="outline-container-org952a53f" class="outline-2 experience">
+<h2 id="org952a53f">Experience</h2>
+<div class="outline-text-2" id="text-org952a53f">
 </div>
-<div id="outline-container-org33822b5" class="outline-3">
-<h3 id="org33822b5">Software Developer - Clariant</h3>
-<div class="outline-text-3" id="text-org33822b5">
+<div id="outline-container-org732d45f" class="outline-3">
+<h3 id="org732d45f">Data Engineer - Snowplow Analytics</h3>
+<div class="outline-text-3" id="text-org732d45f">
 </div>
-<div id="outline-container-org1b375b4" class="outline-4">
-<h4 id="org1b375b4">May 2018 - to date</h4>
-<div class="outline-text-4" id="text-org1b375b4">
+<div id="outline-container-org7f8141f" class="outline-4">
+<h4 id="org7f8141f">Oct 2019 - to date</h4>
+<div class="outline-text-4" id="text-org7f8141f">
 <ul class="org-ul">
-<li>Built a streaming data processing for cloud analytics platform using <b>Scala</b> (cats, fs2) to optimise performance and time-to-market</li>
-<li>Introduced automated historical data sampling using <b>Scala</b> and <b>InfluxDB</b> to improve user experience and performance</li>
-<li>Implemented basic streaming analytics using Apache <b>Spark</b> as a proof of concept</li>
+<li>Introduced an automated data recovery for altering and reprocessing invalid
+data (<b>Scala</b> cats fs2 scio) saving petabytes of data</li>
+<li>Implemented a lightweight single-click Snowplow pipeline product allowing
+customers to quickly run and evaluate the product</li>
+<li>Built and evolved core streaming data pipeline components (<b>Scala</b> cats fs2 scio)</li>
 </ul>
 </div>
 </div>
 </div>
-
-<div id="outline-container-orgf36ce0c" class="outline-3">
-<h3 id="orgf36ce0c">Software Developer - Real Estate Software</h3>
-<div class="outline-text-3" id="text-orgf36ce0c">
+<div id="outline-container-org77fdaba" class="outline-3">
+<h3 id="org77fdaba">Software Developer - Navigance.com</h3>
+<div class="outline-text-3" id="text-org77fdaba">
 </div>
-<div id="outline-container-org12b8701" class="outline-4">
-<h4 id="org12b8701">Oct 2017 - Apr 2018</h4>
-<div class="outline-text-4" id="text-org12b8701">
+<div id="outline-container-org0b822b8" class="outline-4">
+<h4 id="org0b822b8">May 2018 - Sep 2019</h4>
+<div class="outline-text-4" id="text-org0b822b8">
+<ul class="org-ul">
+<li>Built a streaming data processing for cloud analytics platform using <b>Scala</b> (cats, fs2) to optimise performance and time-to-market</li>
+<li>Introduced automated historical data sampling using <b>Scala</b> and <b>InfluxDB</b> to improve user experience and performance</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org1f9de5c" class="outline-3">
+<h3 id="org1f9de5c">Software Developer - Real Estate Software</h3>
+<div class="outline-text-3" id="text-org1f9de5c">
+</div>
+<div id="outline-container-org95be774" class="outline-4">
+<h4 id="org95be774">Oct 2017 - Apr 2018</h4>
+<div class="outline-text-4" id="text-org95be774">
 <ul class="org-ul">
 <li>Built a purely-functional behaviour tracking with <b>Scala</b> (http4s, cats, typelevel stack) for real estate platforms</li>
 <li>Rebuilt development environments and continuous delivery that improved development and delivery times by a level of magnitude</li>
@@ -308,94 +312,76 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-
-<div id="outline-container-org2d0136f" class="outline-3">
-<h3 id="org2d0136f">Technical Architect - Schibsted Tech Polska</h3>
-<div class="outline-text-3" id="text-org2d0136f">
+<div id="outline-container-org44c2951" class="outline-3">
+<h3 id="org44c2951">Lead Developer - Schibsted Tech Polska</h3>
+<div class="outline-text-3" id="text-org44c2951">
 </div>
-<div id="outline-container-org9fe419c" class="outline-4">
-<h4 id="org9fe419c">Jan 2015 - Sep 2017</h4>
-<div class="outline-text-4" id="text-org9fe419c">
+<div id="outline-container-org52f4315" class="outline-4">
+<h4 id="org52f4315">Jan 2015 - Sep 2017</h4>
+<div class="outline-text-4" id="text-org52f4315">
 <ul class="org-ul">
 <li>Co-lead an innovative project of migrating a media house into <b>Amazon Web Services</b> reducing operations costs and delivery times</li>
 <li>Built a highly-optimised, business workflow-oriented, distributed authorisation, authentication, and payment layer built on top of <b>Scala</b> (akka and functional typelevel stack) and <b>Elixir</b></li>
 <li>Designed and built administrative tools for process management with <b>Elixir/OTP</b> improving monitoring, response times and error handling</li>
-<li>Built development tools and continuous delivery processes that improved development and delivery times by a level of magnitude</li>
 </ul>
 </div>
 </div>
 </div>
-
-<div id="outline-container-org17bd17b" class="outline-3">
-<h3 id="org17bd17b">Technical Architect - Middleware Services - Nordea</h3>
-<div class="outline-text-3" id="text-org17bd17b">
+<div id="outline-container-org137154a" class="outline-3">
+<h3 id="org137154a">Lead Developer - Middleware Services - Nordea</h3>
+<div class="outline-text-3" id="text-org137154a">
 </div>
-<div id="outline-container-org74b4023" class="outline-4">
-<h4 id="org74b4023">Jan 2012 - Dec 2014</h4>
-<div class="outline-text-4" id="text-org74b4023">
+<div id="outline-container-org6934873" class="outline-4">
+<h4 id="org6934873">Jan 2011 - Dec 2014</h4>
+<div class="outline-text-4" id="text-org6934873">
 <ul class="org-ul">
 <li>Designed and built <b>Java</b> middleware and <b>Scala</b> tooling, business services stack enabling fast service delivery, scalability, simple integration and changeability</li>
 <li>Built and introduced development tools and continuous delivery processes that improved development and delivery times by a level of magnitude</li>
+<li>Lead and implemented <b>Java</b> and <b>Ruby</b> backends for an financial rating calculation, analysis and reporting</li>
+<li>Designed and built an automated (<b>Java</b>, <b>Ruby</b>) secure data delivery pipeline, removing shaky solutions and manual processes</li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-orgb76c55e" class="outline-3">
-<h3 id="orgb76c55e">Java Developer - Financial Analysis &amp; Reporting - Nordea</h3>
-<div class="outline-text-3" id="text-orgb76c55e">
+<div id="outline-container-orgafff17d" class="outline-3">
+<h3 id="orgafff17d">Java Developer - Kaos Consulting</h3>
+<div class="outline-text-3" id="text-orgafff17d">
 </div>
-<div id="outline-container-orgdef5eac" class="outline-4">
-<h4 id="orgdef5eac">April 2011 - Dec 2011</h4>
-<div class="outline-text-4" id="text-orgdef5eac">
-<ul class="org-ul">
-<li>Lead and implemented <b>Java</b> and <b>Ruby</b> backends for an international rating calculation, analysis and reporting tool</li>
-<li>Designed and built an automated (<b>Java</b> controller, <b>Ruby</b> agents) tool for customisable and secure data delivery, removing shaky solutions and manual processes</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="outline-container-org6f77d93" class="outline-3">
-<h3 id="org6f77d93">Java Developer - Kaos Consulting</h3>
-<div class="outline-text-3" id="text-org6f77d93">
-</div>
-<div id="outline-container-orgaf23985" class="outline-4">
-<h4 id="orgaf23985">Oct 2010 - April 2011</h4>
-<div class="outline-text-4" id="text-orgaf23985">
+<div id="outline-container-org4f8ad3c" class="outline-4">
+<h4 id="org4f8ad3c">Oct 2010 - April 2011</h4>
+<div class="outline-text-4" id="text-org4f8ad3c">
 <ul class="org-ul">
 <li>Picked as top-developer for skilled migration international exchange programme</li>
 <li>Built an automated data analysis and trend recognition APIs with <b>Hadoop</b>, <b>Java</b></li>
-<li>Integrated existing subsystems to accomodate available features</li>
 </ul>
 </div>
 </div>
 </div>
-
-<div id="outline-container-org64b57e9" class="outline-3">
-<h3 id="org64b57e9">Web Developer - Photoblog.pl</h3>
-<div class="outline-text-3" id="text-org64b57e9">
+<div id="outline-container-org5c9339d" class="outline-3">
+<h3 id="org5c9339d">Web Developer - Photoblog.pl</h3>
+<div class="outline-text-3" id="text-org5c9339d">
 </div>
-<div id="outline-container-org2e6a151" class="outline-4">
-<h4 id="org2e6a151">Jan 2008 - Oct 2010</h4>
-<div class="outline-text-4" id="text-org2e6a151">
+<div id="outline-container-org3369c56" class="outline-4">
+<h4 id="org3369c56">Jan 2008 - Oct 2010</h4>
+<div class="outline-text-4" id="text-org3369c56">
 <ul class="org-ul">
-<li>Designed and built a mobile website (<b>PHP</b>, <b>JS</b>), application for the biggest polish photoblogging platform improving mobile usage of the platform several times</li>
-<li>Cooperated on design and implementation (<b>Java</b>, <b>PHP</b>) of automated photomanipulation effects</li>
+<li>Designed and built a (<b>Java</b>, <b>JS</b>) an automated photomanipulation effects for the biggest polish photoblogging platform</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-orgaf0b73f" class="outline-2 education">
-<h2 id="orgaf0b73f">Education</h2>
-<div class="outline-text-2" id="text-orgaf0b73f">
+<div id="outline-container-org8cddbc0" class="outline-2 education">
+<h2 id="org8cddbc0">Education</h2>
+<div class="outline-text-2" id="text-org8cddbc0">
 </div>
-<div id="outline-container-orgf25eec2" class="outline-3">
-<h3 id="orgf25eec2">Gdansk University of Technology</h3>
-<div class="outline-text-3" id="text-orgf25eec2">
+<div id="outline-container-orgffe09f6" class="outline-3">
+<h3 id="orgffe09f6">Gdansk University of Technology</h3>
+<div class="outline-text-3" id="text-orgffe09f6">
 </div>
-<div id="outline-container-org57c72f2" class="outline-4">
-<h4 id="org57c72f2">Electronics, Telecommunications and Informatics Faculty</h4>
-<div class="outline-text-4" id="text-org57c72f2">
+<div id="outline-container-org0a31177" class="outline-4">
+<h4 id="org0a31177">Electronics, Telecommunications and Informatics Faculty</h4>
+<div class="outline-text-4" id="text-org0a31177">
 <p>
 MA thesis: <i>"Face Recognition in the crowd using high resolution camera image"</i>. Developed in Java with JNI for compatibility with supercomputer. 
 <b>Grade:</b> Distinction
@@ -405,122 +391,122 @@ MA thesis: <i>"Face Recognition in the crowd using high resolution camera image"
 </div>
 </div>
 
-<div id="outline-container-org70e0fe0" class="outline-2 skills">
-<h2 id="org70e0fe0">Skills</h2>
-<div class="outline-text-2" id="text-org70e0fe0">
+<div id="outline-container-org9af78b8" class="outline-2 skills">
+<h2 id="org9af78b8">Skills</h2>
+<div class="outline-text-2" id="text-org9af78b8">
 </div>
-<div id="outline-container-orgecae118" class="outline-3">
-<h3 id="orgecae118">Programming</h3>
-<div class="outline-text-3" id="text-orgecae118">
+<div id="outline-container-orgd43eb6b" class="outline-3">
+<h3 id="orgd43eb6b">Programming</h3>
+<div class="outline-text-3" id="text-orgd43eb6b">
 </div>
-<div id="outline-container-org506565c" class="outline-4 percent-80">
-<h4 id="org506565c">Scala</h4>
-<div class="outline-text-4" id="text-org506565c">
-</div>
-</div>
-<div id="outline-container-orgd0983ab" class="outline-4 percent-80">
-<h4 id="orgd0983ab">Elixir</h4>
-<div class="outline-text-4" id="text-orgd0983ab">
+<div id="outline-container-org0072264" class="outline-4 percent-80">
+<h4 id="org0072264">Scala</h4>
+<div class="outline-text-4" id="text-org0072264">
 </div>
 </div>
-<div id="outline-container-org729e003" class="outline-4 percent-60">
-<h4 id="org729e003">JS</h4>
-<div class="outline-text-4" id="text-org729e003">
+<div id="outline-container-org871c992" class="outline-4 percent-60">
+<h4 id="org871c992">JS</h4>
+<div class="outline-text-4" id="text-org871c992">
 </div>
 </div>
-<div id="outline-container-org5e9a9ae" class="outline-4 percent-80">
-<h4 id="org5e9a9ae">Java</h4>
-<div class="outline-text-4" id="text-org5e9a9ae">
+<div id="outline-container-orgb1b8e6b" class="outline-4 percent-60">
+<h4 id="orgb1b8e6b">Haskell</h4>
+<div class="outline-text-4" id="text-orgb1b8e6b">
 </div>
 </div>
-<div id="outline-container-orgb835a9b" class="outline-4 percent-40">
-<h4 id="orgb835a9b">Ruby</h4>
-<div class="outline-text-4" id="text-orgb835a9b">
+<div id="outline-container-org707249e" class="outline-4 percent-80">
+<h4 id="org707249e">Nix</h4>
+<div class="outline-text-4" id="text-org707249e">
 </div>
 </div>
-<div id="outline-container-org3db1f21" class="outline-4 percent-80">
-<h4 id="org3db1f21">Bash</h4>
-<div class="outline-text-4" id="text-org3db1f21">
+<div id="outline-container-orgd76545e" class="outline-4 percent-60">
+<h4 id="orgd76545e">Java</h4>
+<div class="outline-text-4" id="text-orgd76545e">
 </div>
 </div>
-</div>
-<div id="outline-container-org31061de" class="outline-3">
-<h3 id="org31061de">Tools</h3>
-<div class="outline-text-3" id="text-org31061de">
-</div>
-<div id="outline-container-org8feba22" class="outline-4 percent-80">
-<h4 id="org8feba22">Git</h4>
-<div class="outline-text-4" id="text-org8feba22">
+<div id="outline-container-orgf7fd653" class="outline-4 percent-40">
+<h4 id="orgf7fd653">Elixir</h4>
+<div class="outline-text-4" id="text-orgf7fd653">
 </div>
 </div>
-<div id="outline-container-org187755e" class="outline-4 percent-80">
-<h4 id="org187755e">Docker</h4>
-<div class="outline-text-4" id="text-org187755e">
-</div>
-</div>
-<div id="outline-container-org95224e9" class="outline-4 percent-80">
-<h4 id="org95224e9">Ansible</h4>
-<div class="outline-text-4" id="text-org95224e9">
-</div>
-</div>
-<div id="outline-container-orga6797ff" class="outline-4 percent-60">
-<h4 id="orga6797ff">Emacs</h4>
-<div class="outline-text-4" id="text-orga6797ff">
-</div>
-</div>
-<div id="outline-container-org68d999f" class="outline-4 percent-40">
-<h4 id="org68d999f">Amazon WS</h4>
-<div class="outline-text-4" id="text-org68d999f">
-</div>
-</div>
-<div id="outline-container-orgc0e4d25" class="outline-4 percent-40">
-<h4 id="orgc0e4d25">Concourse</h4>
-<div class="outline-text-4" id="text-orgc0e4d25">
-</div>
-</div>
-<div id="outline-container-org8495436" class="outline-4 percent-40">
-<h4 id="org8495436">Nix/NixOS</h4>
-<div class="outline-text-4" id="text-org8495436">
+<div id="outline-container-orgfabcf20" class="outline-4 percent-80">
+<h4 id="orgfabcf20">Bash</h4>
+<div class="outline-text-4" id="text-orgfabcf20">
 </div>
 </div>
 </div>
+<div id="outline-container-orgbe0cf0f" class="outline-3">
+<h3 id="orgbe0cf0f">Tools</h3>
+<div class="outline-text-3" id="text-orgbe0cf0f">
 </div>
-<div id="outline-container-org931304d" class="outline-2 languages">
-<h2 id="org931304d">Languages</h2>
-<div class="outline-text-2" id="text-org931304d">
-</div>
-<div id="outline-container-org5b65fd2" class="outline-4 percent-100">
-<h4 id="org5b65fd2">English</h4>
-<div class="outline-text-4" id="text-org5b65fd2">
-</div>
-</div>
-<div id="outline-container-org05c95c0" class="outline-4 percent-40">
-<h4 id="org05c95c0">German</h4>
-<div class="outline-text-4" id="text-org05c95c0">
+<div id="outline-container-org49e250d" class="outline-4 percent-80">
+<h4 id="org49e250d">Git / GitHub</h4>
+<div class="outline-text-4" id="text-org49e250d">
 </div>
 </div>
-<div id="outline-container-orgc18dcc3" class="outline-4 percent-20">
-<h4 id="orgc18dcc3">Japanese</h4>
-<div class="outline-text-4" id="text-orgc18dcc3">
+<div id="outline-container-orgc7c17be" class="outline-4 percent-80">
+<h4 id="orgc7c17be">Docker</h4>
+<div class="outline-text-4" id="text-orgc7c17be">
+</div>
+</div>
+<div id="outline-container-orga759589" class="outline-4 percent-80">
+<h4 id="orga759589">Terraform</h4>
+<div class="outline-text-4" id="text-orga759589">
+</div>
+</div>
+<div id="outline-container-org09b99dd" class="outline-4 percent-80">
+<h4 id="org09b99dd">Nix/NixOS</h4>
+<div class="outline-text-4" id="text-org09b99dd">
+</div>
+</div>
+<div id="outline-container-org34979b1" class="outline-4 percent-60">
+<h4 id="org34979b1">Emacs</h4>
+<div class="outline-text-4" id="text-org34979b1">
+</div>
+</div>
+<div id="outline-container-org9133706" class="outline-4 percent-40">
+<h4 id="org9133706">AWS / GCP</h4>
+<div class="outline-text-4" id="text-org9133706">
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orge9737f7" class="outline-2 languages">
+<h2 id="orge9737f7">Languages</h2>
+<div class="outline-text-2" id="text-orge9737f7">
+</div>
+<div id="outline-container-orgf8d2a1d" class="outline-4 percent-100">
+<h4 id="orgf8d2a1d">English</h4>
+<div class="outline-text-4" id="text-orgf8d2a1d">
+</div>
+</div>
+<div id="outline-container-org0b6c787" class="outline-4 percent-40">
+<h4 id="org0b6c787">German</h4>
+<div class="outline-text-4" id="text-org0b6c787">
+</div>
+</div>
+<div id="outline-container-org7eb714b" class="outline-4 percent-20">
+<h4 id="org7eb714b">Japanese</h4>
+<div class="outline-text-4" id="text-org7eb714b">
 </div>
 </div>
 </div>
 
-<div id="outline-container-orge8219af" class="outline-2 footer">
-<h2 id="orge8219af">Footer</h2>
-<div class="outline-text-2" id="text-orge8219af">
+<div id="outline-container-orga526670" class="outline-2 footer">
+<h2 id="orga526670">Footer</h2>
+<div class="outline-text-2" id="text-orga526670">
 <p>
 I hereby give consent for my personal data included in the job offer to be processed for the purposes of recruitment under the Data Protection Act 1997 (Dz. U. no. 133, item 883)
 </p>
 </div>
 </div>
-<div id="outline-container-orgd4ebf6b" class="outline-2 talks">
-<h2 id="orgd4ebf6b"><a href="https://codearsonist.com">Speaking</a></h2>
-<div class="outline-text-2" id="text-orgd4ebf6b">
+<div id="outline-container-org18f7bf4" class="outline-2 talks">
+<h2 id="org18f7bf4"><a href="https://codearsonist.com">Speaking</a></h2>
+<div class="outline-text-2" id="text-org18f7bf4">
 </div>
-<div id="outline-container-org0e23377" class="outline-4">
-<h4 id="org0e23377">Some me of my talks:</h4>
-<div class="outline-text-4" id="text-org0e23377">
+<div id="outline-container-orgf6a153c" class="outline-4">
+<h4 id="orgf6a153c">Some me of my talks:</h4>
+<div class="outline-text-4" id="text-orgf6a153c">
 <ul class="org-ul">
 <li><a href="https://codearsonist.com/talks/its-all-broken">It's All Broken</a></li>
 <li><a href="https://codearsonist.com/talks/multi-platform-paradigm-programming">Multi { Platform, Paradigm }</a></li>
@@ -533,26 +519,26 @@ I hereby give consent for my personal data included in the job offer to be proce
 </div>
 </div>
 
-<div id="outline-container-org63672c3" class="outline-2 footer">
-<h2 id="org63672c3">Footer</h2>
-<div class="outline-text-2" id="text-org63672c3">
+<div id="outline-container-orgd6146bd" class="outline-2 footer">
+<h2 id="orgd6146bd">Footer</h2>
+<div class="outline-text-2" id="text-orgd6146bd">
 <p>
 I hereby give consent for my personal data included in the job offer to be processed for the purposes of recruitment under the Data Protection Act 1997 (Dz. U. no. 133, item 883)
 </p>
 </div>
 </div>
-<div id="outline-container-orgb827cbb" class="outline-2 courses">
-<h2 id="orgb827cbb">Courses</h2>
-<div class="outline-text-2" id="text-orgb827cbb">
+<div id="outline-container-org58f4596" class="outline-2 courses">
+<h2 id="org58f4596">Courses</h2>
+<div class="outline-text-2" id="text-org58f4596">
 </div>
-<div id="outline-container-orgff1c713" class="outline-4">
-<h4 id="orgff1c713">Coursera Scala</h4>
+<div id="outline-container-org83b3a11" class="outline-4">
+<h4 id="org83b3a11">Coursera Scala</h4>
 </div>
-<div id="outline-container-org9aa3f40" class="outline-4">
-<h4 id="org9aa3f40">Coursera Algorithms</h4>
+<div id="outline-container-orgacb7632" class="outline-4">
+<h4 id="orgacb7632">Coursera Algorithms</h4>
 </div>
-<div id="outline-container-org640bf97" class="outline-4">
-<h4 id="org640bf97">Coursera Big Data</h4>
+<div id="outline-container-org4eed4bd" class="outline-4">
+<h4 id="org4eed4bd">Coursera Big Data</h4>
 </div>
 </div>
 </div>
