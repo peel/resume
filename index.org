@@ -12,7 +12,7 @@
    :PROPERTIES:
   :HTML_CONTAINER_CLASS: photo
   :END:
-** [[mailto:piotr@codearsonist.com][piotr@codearsonist.com]]
+** [[mailto:plimanowski@pm.me][plimanowski@pm.me]]
    :PROPERTIES:
   :HTML_CONTAINER_CLASS: email
   :END:
@@ -20,7 +20,7 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: phone
   :END:
-** [[https://codearsonist.com][codearsonist.com]]
+** [[https://the.peelosophy.com][the.peelosophy.com]]
    :PROPERTIES:
   :HTML_CONTAINER_CLASS: web
   :END:
@@ -32,45 +32,38 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: experience
   :END:
-** DONE Data Engineer - Snowplow Analytics :scala:js:docker:aws:gcp:terraform:
+** DONE Team Lead, Software Engineer - Snowplow Analytics :scala:js:docker:aws:gcp:terraform:
 *** Oct 2019 - to date
-+ Introduced an automated data recovery for altering and reprocessing invalid
-  data (*Scala* cats fs2 scio) saving petabytes of data
-+ Implemented a lightweight single-click Snowplow pipeline product allowing
-  customers to quickly run and evaluate the product
-+ Built and evolved core streaming data pipeline components (*Scala* cats fs2 scio)  
-** DONE Software Developer - Navigance.com             :scala:js:docker:aws:
++ Designing and leading implementation of next-gen soft real-time data ingestion platform with *Rust*, *Go* and *NATS*, *Kubernetes* and *Terraform*
++ Lead a product-led-growth effort to build a SaaS offering for company's software using *Scala*, *Haskell*, *Python* and *Terraform*
++ Designed and built anonymous behavior tracking system using Typescript
++ Built and evolved lossless core streaming data pipeline components (*Scala* cats fs2 scio)  
+** DONE Software Engineer - Navigance.com              :scala:js:docker:aws:
    CLOSED: [2018-01-10 Wed 13:54]
 *** May 2018 - Sep 2019
 + Built a streaming data processing for cloud analytics platform using *Scala* (cats, fs2) to optimise performance and time-to-market
 + Introduced automated historical data sampling using *Scala* and *InfluxDB* to improve user experience and performance
-** DONE Software Developer - Real Estate Software       :scala:js:docker:aws:
+** DONE Software Engineer - Real Estate Software       :scala:js:docker:aws:
    CLOSED: [2018-01-10 Wed 13:54]
 *** Oct 2017 - Apr 2018
 + Built a purely-functional behaviour tracking with *Scala* (http4s, cats, typelevel stack) for real estate platforms
 + Rebuilt development environments and continuous delivery that improved development and delivery times by a level of magnitude
-** DONE Lead Developer - Schibsted.no      :scala:elixir:js:docker:aws:akka:
+** DONE Lead Engineer - Schibsted.no       :scala:elixir:js:docker:aws:akka:
    CLOSED: [2017-04-12 Wed 09:42]
 *** Jan 2015 - Sep 2017
 + Co-lead an innovative project of migrating a media house into *Amazon Web Services* reducing operations costs and delivery times
 + Built a highly-optimised, business workflow-oriented, distributed authorisation, authentication, and payment layer built on top of *Scala* (akka and functional typelevel stack) and *Elixir*
 + Designed and built administrative tools for process management with *Elixir/OTP* improving monitoring, response times and error handling
-** DONE Lead Developer - Middleware Services - Nordea.se        :java:scala:
+** DONE Lead Engineer - Middleware Services - Nordea.se         :java:scala:
    CLOSED: [2017-04-12 Wed 12:07]
 *** Jan 2011 - Dec 2014
-+ Designed and built *Java* middleware and *Scala* tooling, business services stack enabling fast service delivery, scalability, simple integration and changeability
-+ Built and introduced development tools and continuous delivery processes that improved development and delivery times by a level of magnitude
-+ Lead and implemented *Java* and *Ruby* backends for an financial rating calculation, analysis and reporting
-+ Designed and built an automated (*Java*, *Ruby*) secure data delivery pipeline, removing shaky solutions and manual processes
++ Designed and built *Scala*, *Java* middleware business services stack enabling fast service delivery, scalability, simple integration and changeability
 ** DONE Java Developer - Kaos Consulting                 :java:spring:hadoop:
    CLOSED: [2017-04-13 Thu 07:36]
 *** Oct 2010 - April 2011
- + Picked as top-developer for skilled migration international exchange programme
- + Built an automated data analysis and trend recognition APIs with *Hadoop*, *Java*
 ** DONE Web Developer - Photoblog.pl                            :java:js:
    CLOSED: [2017-04-13 Thu 07:36]
 *** Jan 2008 - Oct 2010
-+ Designed and built a (*Java*, *JS*) an automated photomanipulation effects for the biggest polish photoblogging platform
 * Education
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: education
@@ -87,40 +80,32 @@
   :END:
 ** DONE Programming
    CLOSED: [2017-04-03 Mon 09:40]
-*** Scala 
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-80
-  :END:
-*** JS
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-60
-  :END:
-*** Haskell
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-60
-  :END:
-*** Nix
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-80
-  :END:
-*** Java
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-60
-  :END:  
-*** Elixir
+*** Rust @@html:<i class="fa-brands fa-rust"></i>@@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-40
   :END:
-*** Bash
+*** Go @@html:<i class="fa-brands fa-golang"></i>@@
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-60
+  :END:
+*** Haskell @@html:<i class="pragmata"></i>@@
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-60
+  :END:
+*** Scala @@html:<i class="pragmata"></i>@@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
+  :END:
+*** JS @@html:<i class="pragmata"></i>@@
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-60
+  :END:
+*** Python @@html:<i class="fa-brands fa-python"></i>@@
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-60
   :END:
 ** TODO Tools
-*** Git / GitHub
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-80
-  :END:
-*** Docker
+*** Kubernetes
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
   :END:
@@ -128,17 +113,13 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
   :END:
-*** Nix/NixOS
+*** Nix / NixOS
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
-  :END:  
-*** Emacs
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-60
   :END:
 *** AWS / GCP
   :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-40
+  :HTML_CONTAINER_CLASS: percent-60
   :END:
 * DONE Languages
   CLOSED: [2017-04-03 Mon 11:11]
@@ -159,23 +140,16 @@
     :END:
 
 #+INCLUDE: include/pl.org :minlevel 1
-* TODO [[https://codearsonist.com][Speaking]]
+* TODO [[https://the.peelosophy.com][Speaking]]
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: talks
   :END:
 *** Some me of my talks:
-  - [[https://codearsonist.com/talks/its-all-broken][It's All Broken]]
-  - [[https://codearsonist.com/talks/multi-platform-paradigm-programming][Multi { Platform, Paradigm }]]
-  - [[https://codearsonist.com/talks/multi-platform-paradigm-programming][De⎇ it!]]
-  - [[https://codearsonist.com/talks/forgetting-java-why-java-should-die-in-flames-and-take-it-s-developers-along][Forgetting Java]]
-  - [[https://codearsonist.com/talks/forgetting-java-why-java-should-die-in-flames-and-take-it-s-developers-along][Zen of Refactoring]]
-  - more at [[https://codearsonist.com][codearsonist.com]]
+  - [[https://the.peelosophy.com/talks/its-all-broken][It's All Broken]]
+  - [[https://the.peelosophy.com/talks/multi-platform-paradigm-programming][Multi { Platform, Paradigm }]]
+  - [[https://the.peelosophy.com/talks/multi-platform-paradigm-programming][De⎇ it!]]
+  - [[https://the.peelosophy.com/talks/forgetting-java-why-java-should-die-in-flames-and-take-it-s-developers-along][Forgetting Java]]
+  - [[https://the.peelosophy.com/talks/forgetting-java-why-java-should-die-in-flames-and-take-it-s-developers-along][Zen of Refactoring]]
+  - more at [[https://the.peelosophy.com][the.peelosophy.com]]
 
   #+INCLUDE: include/pl.org :minlevel 1
-* TODO Courses
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: courses
-  :END:
-*** Coursera Scala
-*** Coursera Algorithms
-*** Coursera Big Data

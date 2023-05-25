@@ -18,12 +18,13 @@ let
       '';
   };
 in pkgs.stdenv.mkDerivation {
-  name = "deals-entrypoint";
-  buildInputs = with pkgs; [ org-export emacs bash wkhtmltopdf ];
+  name = "resume";
+  buildInputs = with pkgs; [ org-export emacs bash wkhtmltopdf ghostscript ];
   shellHook = ''
-    alias org-export="${org-export}/bin/org-export"
-    mv resume.pdf resume.pdf.bak
-    org-export html --infile index.org
-    wkhtmltopdf index.html
+    # alias org-export="${org-export}/bin/org-export"
+    # mv resume.pdf resume.pdf.bak
+    # org-export html --infile index.org
+    # wkhtmltopdf index.html
+    gs -sDEVICE=pdfwrite -dNOPAUSE -dQUIET -dBATCH -dPDFSETTINGS=/screen -dCompatibilityLevel=1.4 -sOutputFile=output.pdf resume.pdf
   '';
 }

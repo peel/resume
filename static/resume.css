@@ -41,6 +41,9 @@ h3 {
   font-size: 2.6em;
   font-weight: 500;
 }
+.pragmata {
+    font-family: "PragmataPro Liga";
+}
 .skills h4,
 .languages h4,
 .courses h4,
@@ -58,51 +61,33 @@ h3 {
 .percent-60 h4,
 .percent-80 h4,
 .percent-100 h4 {
-  width: 50%;
+    width: 50%;
 }
-.percent-20:after {
+.percent-20::after,
+.percent-40::after,
+.percent-60::after,
+.percent-80::after,
+.percent-100::after {
   content: " ";
   display: block;
   background: rgb(56, 182, 171);
-  height: 0.7em;
+  height: 0.8em;
   border-radius: 1em;
-  margin: -1.1em 0 0 50%;
+  margin: -1.2em 0 0.3em 50%;
+}
+.percent-20:after {
   width: 10%;
 }
 .percent-40:after {
-  content: " ";
-  display: block;
-  background: rgb(56, 182, 171);
-  height: 0.7em;
-  border-radius: 1em;
-  margin: -1.1em 0 0 50%;
   width: 20%;
 }
 .percent-60:after {
-  content: " ";
-  display: block;
-  background: rgb(56, 182, 171);
-  height: 0.7em;
-  border-radius: 1em;
-  margin: -1.1em 0 0 50%;
   width: 30%;
 }
 .percent-80:after {
-  content: " ";
-  display: block;
-  background: rgb(56, 182, 171);
-  height: 0.7em;
-  border-radius: 1em;
-  margin: -1.1em 0 0 50%;
   width: 40%;
 }
 .percent-100:after {
-  content: " ";
-  display: block;
-  background: rgb(56, 182, 171);
-  height: 0.7em;
-  border-radius: 1em;
-  margin: -1.1em 0 0 50%;
   width: 50%;
 }
 .sheet {
@@ -234,7 +219,7 @@ h2 {
 .talks h2,
 .languages h2 {
   padding-bottom: 0.2em;
-  margin: 0 0 0.3em 0;
+  margin: 1em 0 0.5em 0;
 }
 .skills h3 {
   padding-bottom: 0.3em;
